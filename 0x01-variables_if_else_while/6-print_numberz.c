@@ -9,12 +9,14 @@
 
 int main(void)
 {
-int n = 48;
-while (n <= 57)
-{
-putchar(n);
-n += 1;
-}
-putchar("\n");
-return (0);
+		int c = 0;
+
+			while (c < 10)
+					{
+								putchar(48 + c);
+										c++;
+											}
+
+				putchar('\n');
+					return (0);
 }
