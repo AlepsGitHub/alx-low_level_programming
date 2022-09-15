@@ -1,28 +1,35 @@
 #include "main.h"
 
-#include "holberton.h"
-
 /**
+ *
  *  * main - Entry point
- *   * Return:0
+ *
+ *   * Return
+ *
  *    */
 
-/**
- *  * main - program that prints _putchar.
- *   *
- *    * Return: int
- *     */
+
 
 int main(void)
-{
-		int n = 0;
-			char str_hbt[9] = "_putchar";
 
-				while (n < 9)
-						{
-									_putchar(str_hbt[n]);
-											n += 1;
-												}
-					_putchar('\n');
-						return (0);
+{
+
+	char c[10] = "_putchar";
+
+	int i = 0;
+
+	while (i < 9)
+
+	{
+
+		_putchar(c[i]);
+
+		i++;
+
+	}
+
+	_putchar('\n');
+
+	return (0);
+
 }
