@@ -2,11 +2,13 @@
 
 /**
  *
- *  * main - Entry point
+ * main - program that prints _putchar.
+ * main - Entry point
  *
- *   * Return
+ * Return
  *
- *    */
+ *
+ */
 
 
 int main(void)
