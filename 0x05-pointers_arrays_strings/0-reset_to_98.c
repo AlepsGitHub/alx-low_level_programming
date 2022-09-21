@@ -3,7 +3,7 @@
 /**
  * takes a pointer to an int as parameter and updates
  * points to 98
- * n pointer to an int
+ * @n: pointer to an int
  * Return: Nothing
  */
 
