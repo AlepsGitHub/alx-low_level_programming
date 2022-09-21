@@ -1,1 +1,1 @@
-GO
+Pointer and array strings
