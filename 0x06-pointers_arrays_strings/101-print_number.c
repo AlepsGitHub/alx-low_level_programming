@@ -23,5 +23,7 @@ for (; divisor >= 1; n %= divisor, divisor /= 10)
 {
 	resp = n / divisor;
 	_putchar('0' + resp);
+
 }
+
 }
